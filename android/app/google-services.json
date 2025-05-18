@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "380538820736",
+    "project_id": "awesome-notif-assignment",
+    "storage_bucket": "awesome-notif-assignment.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380538820736:android:db2e954212e9e05c69ee65",
+        "android_client_info": {
+          "package_name": "com.example.awesome_notifications_assignment"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAM-jeyNbCm0r4mGq17uS2lKdDwyp4Uy0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
