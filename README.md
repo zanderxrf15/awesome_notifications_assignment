@@ -1,16 +1,7 @@
 # awesome_notifications_assignment
 
-A new Flutter project.
+The program made for this assignment is a game break reminder application made using Flutter, Firebase, and Awesome Notifications.
 
-## Getting Started
+Firebase is used as the cloud database, shared_preferences for local persistence, and awesome_notifications for scheduling and delivering notifications. On startup, Firebase is initialised and notification permissions are granted. A notification channel is defined for break reminders, and the app retrieves the count of gaming sessions from Firestore or local storage. When user starts a session, break notification is scheduled using current time and specified session duration.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The UI uses neon blue over a dark background as the theme to make it appear futuristic and appealing to gamers. The main screen displays the number of sessions completed for the day, user input for gaming session duration, and a button to start session. When session starts, it schedules a future notification and increments the session count locally and remotely. The notification is visually customised and includes wake-up feature to ensure visibility.
