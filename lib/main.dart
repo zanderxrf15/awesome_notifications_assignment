@@ -178,7 +178,7 @@ class _BreakTimerPageState extends State<BreakTimerPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'gaming sessions today:',
+                'gaming sessions completed:',
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.w600,
